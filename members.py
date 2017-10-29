@@ -9,7 +9,6 @@ import json
 
 def read_json(fn):
     """Read a members-json file from the file identified by fn. Content is parsed but not validated."""
-    pass
     try:
         with open(fn) as json_data:
             data = json.load(json_data)
